@@ -5,8 +5,8 @@ int analogValue;
 float millivolts, celsius;
 
 String apiKey = "OQ26CQKN195R812T"; 
-const char* ssid = "ASUS";
-const char* password = "12345678";
+const char* ssid = "----";
+const char* password = "*******";
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;
