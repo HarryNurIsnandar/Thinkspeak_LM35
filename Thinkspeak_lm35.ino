@@ -44,8 +44,8 @@ void loop() {
     client.print("Connection: close\n");
     client.print("X-THINGSPEAKAPIKEY: " + apiKey + "\n"); 
     client.print("Content-Type: application/x-www-form-urlencoded\n");
-    client.print("Content-Length: "); // Use 'Content-Length' with correct spelling
-    client.print(postStr.length()); // Use .length() to get string length
+    client.print("Content-Length: "); 
+    client.print(postStr.length()); 
     client.print("\n\n");
     client.print(postStr);
   }
